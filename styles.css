@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.hero{
+    padding: 10px 10%;
+    min-height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 80px;
+    
+}
+nav h2{
+    display:inline;
+    font-size: 50px;
+    align-items: center;
+    color: #fff;
+}
+
+span{
+    
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 60px 15px 10px;
+    color: #fff;
+}
+.button{
+    text-decoration: none;
+    margin: 60px 15px 10px;
+}
+.log-in{
+    margin-right: 15px;
+    color: #fff;
+}
+.dow-btn{
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881,#c430d7);
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 2s;
+    animation-delay: 2s;
+}
+.dow-btn:hover{
+    border-top-right-radius: 30px;
+
+}
+
+.content{
+    max-width: 600px;
+    margin-top: 10%;
+}
+.content h1{
+    font-size: 75px;
+    color: rgba(127, 255, 212, 0.815);
+
+    animation-delay: 0.5s;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: transparent;
+    animation-delay: 1s;
+}
+.btnd{
+    padding: 15px 80px;
+    margin: 0;
+}
+.person{
+    position: absolute;
+    bottom: 0;
+    width: 620px;
+    right: 10%;
+    animation-delay: 4s;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
